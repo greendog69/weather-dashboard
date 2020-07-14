@@ -1,0 +1,103 @@
+.app {
+  min-height: 800px;
+}
+
+.menu {
+  background-color: #f6f4f0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.city-container {
+  min-height: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.custom-button {
+  padding: 3px 10px;
+  margin-bottom: 3px;
+}
+
+.weather-today {
+  min-height: 200px;
+}
+
+.error-text,
+.loading-text {
+  color: #fff;
+}
+
+.content {
+  position: relative;
+}
+
+#failure-wrapper {
+  position: relative;
+  min-height: 250px;
+  width: 90%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.weather-title {
+  display: inline-block;
+  min-width: 120px;
+  text-align: right;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.weather-data {
+  display: inline-block;
+  text-align: left;
+}
+
+.weather-data.green {
+  background-color: rgba(0, 128, 0, .5);
+  color: #fff;
+}
+
+.weather-data.yellow {
+  background-color: rgba(124, 128, 0, 0.5);
+  color: #fff;
+}
+
+.weather-data.orange {
+  background-color: rgba(128, 77, 0, 0.5);
+  color: #fff;
+}
+
+.weather-data.red {
+  background-color: rgba(128, 0, 0, 0.5);
+  color: #fff;
+}
+
+.weather-data.violet {
+  background-color: rgba(115, 0, 128, 0.5);
+  color: #fff;
+}
+
+.single-day {
+  background-color: #3939ff;
+  color: #fff;
+}
+
+#failure,
+#loading,
+#weekly-failure {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(33, 37, 41, 1); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+

@@ -6,9 +6,9 @@ const weatherTodayTemplate = 'weather-today' //the weather for today template
 const weatherCellTemplate = 'weather-single-day' //single day template
 
 //For openWeathermap api
-const weatherImageUrl = 'http://openweathermap.org/img/wn/' // weather img url
+const weatherImageUrl = 'https://openweathermap.org/img/wn/' // weather img url
 const APIKEY = 'f21e9108f416c65e88bbdb8bec1927b9' //the api key
-const baseAPIUrl = 'http://api.openweathermap.org/data/2.5/'
+const baseAPIUrl = 'https://api.openweathermap.org/data/2.5/'
 const currentWeatherAppend = 'weather?' //current weather get path
 const forecastAppend = 'onecall?' //forecast weather get path
 const defaultUnits = 'imperial' //the default units for the information
